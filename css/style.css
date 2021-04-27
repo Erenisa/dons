@@ -1,0 +1,108 @@
+html {
+	height: 100%;
+}
+
+body {
+	display: flex;
+	flex-direction: column;
+	height: 100%;
+	margin: 0;
+	background-image: url(/img/sky.jpg);
+	font-family: Roboto, sans-serif;
+}
+
+p, h1, h2, h3 {
+	margin: 0;
+}
+
+.wrapper {
+	width: 1024px;
+}
+
+header {
+	display: flex;
+	justify-content: center;
+	flex: 0 0 auto;
+	padding-top: 20px;
+	padding-bottom: 10px;
+}
+
+.header {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	color: #fff;
+}
+
+.nav {
+	text-decoration: none;
+	color: #fff;
+	font-size: 18px;
+	margin-right: 10px;
+}
+
+.nav:hover {
+	text-decoration: underline;
+}
+
+content {
+	display: flex;
+	justify-content: center;
+	flex: 1 0 auto;
+	margin-top: 15px;
+}
+
+.content {
+	display: flex;
+	flex-direction: column;
+}
+
+.slogan {
+	margin-top: 100px;
+	margin-bottom: 70px;
+	font-size: 50px;
+	color: #fff;
+}
+
+.form {
+	display: flex;
+}
+
+.input_text {
+	width: 100%;
+	margin-left: 5px;
+	margin-right: 5px;
+	font-size: 15px;
+	border-radius: 14px;
+	border: 1px solid #999999;
+	padding-top: 5px;
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-bottom: 5px;
+	outline: none;
+}
+
+.clik {
+	background-color: #b366ff;
+	color: #fff;
+	border: 0;
+}
+
+.clik:hover {
+	outline: none;
+	background-color: #9933ff;
+}
+
+footer {
+	display: flex;
+	justify-content: center;
+	flex: 0 0 auto;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+.footer {
+	display: flex;
+	justify-content: center;
+	color: #fff;
+}
